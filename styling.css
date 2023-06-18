@@ -24,7 +24,7 @@
   
   .container {
     margin: auto;
-    max-width: 1600px;
+    max-width: 1200px;
     overflow: auto;
     padding: 0 20px;
   }
@@ -61,14 +61,14 @@
 }
 #intro{
     background: url(img/img1.jpg) no-repeat center center/cover;
-    height: 600px;
+    height: 500px;
 }
 #intro .intro-content {
     color: white;
-    padding-top: 250px;
+    padding-top: 200px;
     font-family: 'Tilt Prism', cursive;
     text-align: center;
-
+    overflow: hidden;
 }
 #intro .intro-content h1{
     font-size: 50px;
@@ -80,6 +80,7 @@
 
 #options {
     height: 350px;
+    font-size: 15px;
 }
  .box {
     float: left;
@@ -123,10 +124,10 @@ color: white;
 #footer {
     background-color: grey;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
 }
 #about-us {
-    height: 560px;
+    height: 420px;
     background-color: rgb(201, 185, 185);
 }
 #about-us .about-us-right {
@@ -147,18 +148,18 @@ color: white;
     color:  rgb(71, 68, 68);
 }
 #about-us .about-us-left h1{
-    padding-top: 100px;
-    font-size: 40px;
+    padding-top: 50px;
+    font-size: 30px;
 }
 #about-us .about-us-left p{
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 8px;
 }
 
 #about-chef {
-    height: 500px;
+    height: 400px;
     background: url(img/img4.jpg) no-repeat top center/cover;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 #about-chef .about-chef-left {
     float: left;
@@ -169,22 +170,25 @@ color: white;
     display: block;
     margin: auto;
     width: 60%;
+    padding-top: 20px;
     border-radius: 30%;
 }
 
 #about-chef .about-chef-right{
+    background-color: rgb(243, 223, 167);
     float: right;
-    width: 60%;
+    width: 40%;
     text-align: center;
     min-height: 100%;
-    color:  white;
+    border-radius: 10px;
+    color: rgb(43, 2, 36);
+    opacity: 0.9;
 }
 #about-chef .about-chef-right h1{
-    padding-top: 40px;
-    font-size: 40px;
+    font-size: 30px;
 }
 #about-chef .about-chef-right p{
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 8px;
 } 
 
@@ -197,11 +201,10 @@ color: white;
     padding-top: 100px;
 }
 .type-info .type-info-content h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 .type-info .type-info-content p{
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
     padding-right: 550px;
 }
 .menu-info {
@@ -210,17 +213,15 @@ color: white;
 }
 .menu-info h2{
     padding: 30px 0;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 }
 .menu-info .dish{
-    font-weight: bold;
     color: rgb(71, 68, 68);
 
 }
 .menu-info .dish h3{
-    padding-bottom: 5px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .menu-info .dish p{
     padding-bottom: 15px;
@@ -235,11 +236,10 @@ color: white;
     padding-top: 100px;
 }
 .type2-info .type2-info-content h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 .type2-info .type2-info-content p{
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
     padding-right: 550px;
 }
 #contact-form h1{
