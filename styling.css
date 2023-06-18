@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  html,body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7em;
+  }
+
+    a {
+    color: white;
+    text-decoration: none;
+}
+  h1, h2, h3 {
+    padding-bottom: 10px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .container {
+    margin: auto;
+    max-width: 1600px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+
+#navbar {
+    background-color: rgb(71, 68, 68);
+    position: sticky;
+    top:0;
+}
+#navbar h1{
+    float: left;
+    padding-top: 15px;
+}
+#navbar h1 a {
+    color: rgb(112, 85, 116); 
+    font-weight: bolder;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+#navbar ul li a:hover {
+    background-color: grey;
+    color: rgb(112, 85, 116);
+}
+#intro{
+    background: url(img/img1.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+#intro .intro-content {
+    color: white;
+    padding-top: 250px;
+    font-family: 'Tilt Prism', cursive;
+    text-align: center;
+
+}
+#intro .intro-content h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+#intro .intro-content h2{
+    font-size: 40px;
+}
+
+#options {
+    height: 350px;
+}
+ .box {
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    padding: 50px;
+    text-align:center;
+  }
+
+.box h1 {
+    color: rgb(112, 85, 116);
+}
+.box p {
+    padding-bottom: 30px;
+}
+.bg-primary {
+background-color: rgb(112, 85, 116);
+color: white;
+}
+.bg-primary h1{
+    color: white;
+}
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: rgb(112, 85, 116);
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-light {
+    background-color: #fff;
+    color: rgb(112, 85, 116);
+  }
+  .btn:hover {
+    background: plum;
+    color: #333;
+  }
+#footer {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+}
+#about-us {
+    height: 560px;
+    background-color: rgb(201, 185, 185);
+}
+#about-us .about-us-right {
+    float: right;
+    width: 60%;
+    min-height: 100%;
+}
+#about-us .about-us-right img {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+#about-us .about-us-left{
+    float: left;
+    width: 40%;
+    min-height: 100%;
+    color:  rgb(71, 68, 68);
+}
+#about-us .about-us-left h1{
+    padding-top: 100px;
+    font-size: 40px;
+}
+#about-us .about-us-left p{
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+#about-chef {
+    height: 500px;
+    background: url(img/img4.jpg) no-repeat top center/cover;
+    padding-top: 100px;
+}
+#about-chef .about-chef-left {
+    float: left;
+    width: 40%;
+    min-height: 100%;
+}
+#about-chef .about-chef-left img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    border-radius: 30%;
+}
+
+#about-chef .about-chef-right{
+    float: right;
+    width: 60%;
+    text-align: center;
+    min-height: 100%;
+    color:  white;
+}
+#about-chef .about-chef-right h1{
+    padding-top: 40px;
+    font-size: 40px;
+}
+#about-chef .about-chef-right p{
+    font-size: 20px;
+    padding-bottom: 8px;
+} 
+
+ .type-info{
+    height: 400px;
+    background: url(img/img5.jpg) no-repeat bottom center/cover;
+}
+.type-info .type-info-content{
+    color: white;
+    padding-top: 100px;
+}
+.type-info .type-info-content h1{
+    font-size: 40px;
+}
+.type-info .type-info-content p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 550px;
+}
+.menu-info {
+    background-color:  rgb(201, 185, 185);
+    text-align: center;
+}
+.menu-info h2{
+    padding: 30px 0;
+    font-size: 40px;
+    color: white;
+}
+.menu-info .dish{
+    font-weight: bold;
+    color: rgb(71, 68, 68);
+
+}
+.menu-info .dish h3{
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+.menu-info .dish p{
+    padding-bottom: 15px;
+}
+
+.type2-info{
+    height: 400px;
+    background: url(img/img6.jpg) no-repeat center center/cover;
+}
+.type2-info .type2-info-content{
+    color: white;
+    padding-top: 100px;
+}
+.type2-info .type2-info-content h1{
+    font-size: 40px;
+}
+.type2-info .type2-info-content p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 550px;
+}
+#contact-form h1{
+    margin-top: 20px;
+}
+#contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact-form input, 
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px rgb(199, 194, 194) solid;
+  }
+  
+  #contact-form textarea {
+    height: 200px;
+  }
+  
+  #contact-form input:focus, 
+  #contact-form textarea:focus {
+    outline: none;
+    border-color: rgb(112, 85, 116);
+  }
+  #contact-info {
+    background-color: rgb(112, 85, 116);
+    margin-top: 10px;
+  }
